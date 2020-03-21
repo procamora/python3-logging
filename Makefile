@@ -9,7 +9,7 @@ OUTPUT_MANIFEST=MANIFEST
 # python3 -m pip install --user --upgrade setuptools wheel twine
 
 
-all: clean dist upload
+all: clean dist git upload
 
 
 dist:
@@ -33,4 +33,4 @@ clean:
 	[ ! -f $(OUTPUT_MANIFEST) ] || rm -f $(OUTPUT_MANIFEST)
 
 
-.PHONY: dist clean git upload
+.PHONY: dist clean git upload all
