@@ -1,7 +1,8 @@
 # python3-logging
 
 
-Library to run the logging library with colors according to the type of log',  # Give a short description about your library.
+Library to run the logging library with colors according to the type of log.
+
 
 # Installation
 
